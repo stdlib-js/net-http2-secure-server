@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/net-http2-secure-server",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "HTTP/2 secure server.",
   "license": "Apache-2.0",
   "author": {
@@ -77,9 +77,6 @@
     "server",
     "create"
   ],
-  "__stdlib__": {
-    "browser": false
-  },
   "funding": {
     "type": "opencollective",
     "url": "https://opencollective.com/stdlib"
