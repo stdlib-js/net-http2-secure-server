@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import http2ServerFactory from 'https://cdn.jsdelivr.net/gh/stdlib-js/net-http2-secure-server@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/net-http2-secure-server/tags). For example,
+
+```javascript
 import http2ServerFactory from 'https://cdn.jsdelivr.net/gh/stdlib-js/net-http2-secure-server@v0.1.0-deno/mod.js';
 ```
 
@@ -181,7 +186,7 @@ var proc = require( 'process' );
 var http2 = require( 'http2' );
 var resolve = require( 'path' ).resolve;
 var readFileSync = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/fs-read-file' ).sync;
-import http2ServerFactory from 'https://cdn.jsdelivr.net/gh/stdlib-js/net-http2-secure-server@v0.1.0-deno/mod.js';
+import http2ServerFactory from 'https://cdn.jsdelivr.net/gh/stdlib-js/net-http2-secure-server@deno/mod.js';
 
 function done( error ) {
     var client;
