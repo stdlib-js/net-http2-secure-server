@@ -45,7 +45,7 @@
     "@stdlib/assert-is-plain-object": "^0.2.2",
     "@stdlib/assert-is-string": "^0.2.2",
     "@stdlib/fs-read-file": "^0.2.2",
-    "@stdlib/string-format": "^0.2.2",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.2",
     "@stdlib/utils-keys": "^0.2.2",
     "@stdlib/utils-noop": "^0.2.2",
     "@stdlib/utils-omit": "^0.2.2",
