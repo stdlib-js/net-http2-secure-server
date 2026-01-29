@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import http2ServerFactory from 'https://cdn.jsdelivr.net/gh/stdlib-js/net-http2-secure-server@esm/index.mjs';
+import http2ServerFactory from 'https://cdn.jsdelivr.net/gh/stdlib-js/net-http2-secure-server@v0.1.0-esm/index.mjs';
 ```
 
 #### http2ServerFactory( options\[, requestListener] )
@@ -186,7 +186,7 @@ var proc = require( 'process' );
 var http2 = require( 'http2' );
 var resolve = require( 'path' ).resolve;
 var readFileSync = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/fs-read-file' ).sync;
-import http2ServerFactory from 'https://cdn.jsdelivr.net/gh/stdlib-js/net-http2-secure-server@esm/index.mjs';
+import http2ServerFactory from 'https://cdn.jsdelivr.net/gh/stdlib-js/net-http2-secure-server@v0.1.0-esm/index.mjs';
 
 function done( error ) {
     var client;
