@@ -2,6 +2,42 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2026-04-28)
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`d689d2d`](https://github.com/stdlib-js/stdlib/commit/d689d2dcba1570eedbbe3b7689dcbe1921ba11eb) - **chore:** propagate `node/` -> `n/` eslint plugin prefix update across README directives [(#11826)](https://github.com/stdlib-js/stdlib/pull/11826) _(by Philipp Burckhardt)_
+-   [`0dc62ae`](https://github.com/stdlib-js/stdlib/commit/0dc62ae39a4817ff888e9736c3ea599f6beff4e5) - **build:** replace `eslint-plugin-node` with `eslint-plugin-n` [(#10952)](https://github.com/stdlib-js/stdlib/pull/10952) _(by Philipp Burckhardt, Athan Reines)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 2 people contributed to this release. Thank you to the following contributors:
+
+-   Athan Reines
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.1.1">
 
 ## 0.1.1 (2026-02-07)
