@@ -1,4 +1,4 @@
-"use strict";var s=function(t,r){return function(){return r||t((r={exports:{}}).exports,r),r.exports}};var o=s(function(d,i){"use strict";function a(){throw new Error("invalid operation. Environment lacks support for HTTP/2. Ensure that you are running on a Node.js version which supports HTTP/2 and has been built to include support for the Node.js `crypto` module.")}i.exports=a});var u=require("path").join,p=require("@stdlib/utils-try-require"),l=require("@stdlib/assert-is-error"),v=o(),e,n=p(u(__dirname,"./main.js"));l(n)?e=v:e=n;module.exports=e;
+"use strict";var a=function(t,r){return function(){try{return r||t((r={exports:{}}).exports,r),r.exports}catch(s){throw r=0,s}}};var o=a(function(f,i){"use strict";function u(){throw new Error("invalid operation. Environment lacks support for HTTP/2. Ensure that you are running on a Node.js version which supports HTTP/2 and has been built to include support for the Node.js `crypto` module.")}i.exports=u});var p=require("path").join,l=require("@stdlib/utils-try-require"),v=require("@stdlib/assert-is-error"),c=o(),e,n=l(p(__dirname,"./main.js"));v(n)?e=c:e=n;module.exports=e;
 /**
 * @license Apache-2.0
 *
